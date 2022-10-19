@@ -1,4 +1,9 @@
 #!/bin/bash
+CFLAGS = -g -wall
+CC = gcc
+
+main: main.c
+        $(CC) $(CFLAGS) $< -o $@
 #============================================================================
 #
 # This file is licensed under the terms of the GNU General Public
