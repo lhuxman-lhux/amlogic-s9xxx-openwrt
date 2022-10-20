@@ -170,23 +170,18 @@ rebuild_firmware() {
         proto-bonding pv rename resize2fs runc subversion-client subversion-libs tar  \
         tini ttyd tune2fs uclient-fetch uhttpd uhttpd-mod-ubus unzip uqmi usb-modeswitch  \
         uuidgen wget-ssl whereis which wpa-cli wpad-basic wwan xfs-fsck xfs-mkfs xz  \
-        xz-utils ziptool zoneinfo-asia zoneinfo-core zstd kmod-nls-base kmod-usb-core kmod-usb-net \
-        kmod-usb-net-cdc-ether kmod-usb2 kmod-usb-net-cdc-eem kmod-usb-net-cdc-ether kmod-usb-net-cdc-subset \
+        xz-utils ziptool zoneinfo-asia zoneinfo-core zstd  \
+        \
         luci luci-base luci-compat luci-i18n-base-en luci-i18n-base-zh-cn luci-lib-base  \
         luci-lib-docker luci-lib-ip luci-lib-ipkg luci-lib-jsonc luci-lib-nixio  \
         luci-mod-admin-full luci-mod-network luci-mod-status luci-mod-system  \
         luci-proto-3g luci-proto-bonding luci-proto-ipip luci-proto-ipv6 luci-proto-ncm  \
         luci-proto-openconnect luci-proto-ppp luci-proto-qmi luci-proto-relay  \
-        cgi-io libiwinfo libiwinfo-data libiwinfo-lua liblua liblucihttp liblucihttp-lua \ 
-        libubus-lua lua luci luci-app-firewall luci-app-opkg luci-base luci-lib-base \ 
-        luci-lib-ip luci-lib-jsonc luci-lib-nixio luci-mod-admin-full luci-mod-network \
-        luci-mod-status luci-mod-system luci-proto-ipv6 luci-proto-ppp luci-ssl \
-        luci-theme-bootstrap px5g-wolfssl rpcd rpcd-mod-file rpcd-mod-iwinfo rpcd-mod-luci \
-        rpcd-mod-rrdns uhttpd uhttpd-mod-ubus luci-compat \
-        ath9k-htc-firmware btrfs-progs hostapd hostapd-utils kmod-ath kmod-ath9k kmod-ath9k-common \
-        kmod-ath9k-htc kmod-cfg80211 kmod-crypto-acompress kmod-crypto-crc32c kmod-crypto-hash \
-        kmod-fs-btrfs kmod-mac80211 wireless-tools wpa-cli wpa-supplicant kmod-usb-net-rndis \
-        luci-app-amlogic luci-i18n-amlogic-zh-cn \ 
+        kmod-usb-net kmod-usb-net-cdc-ether kmod-usb-net-rndis \ 
+        kmod-usb-net kmod-usb-net-rndis kmod-usb-net-cdc-ether usbutils udev \ 
+        kmod-usb-net-cdc-ncm kmod-usb-serial kmod-usb-serial-option kmod-usb-serial-wwan kmod-usb2 block-mount udev usb-modeswitch usbutils
+        \
+        luci-app-amlogic luci-i18n-amlogic-zh-cn \
         \
         ${config_list} \
         "
