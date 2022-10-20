@@ -176,10 +176,7 @@ rebuild_firmware() {
         luci-lib-docker luci-lib-ip luci-lib-ipkg luci-lib-jsonc luci-lib-nixio  \
         luci-mod-admin-full luci-mod-network luci-mod-status luci-mod-system  \
         luci-proto-3g luci-proto-bonding luci-proto-ipip luci-proto-ipv6 luci-proto-ncm  \
-        luci-proto-openconnect luci-proto-ppp luci-proto-qmi luci-proto-relay  \
-        kmod-usb-net kmod-usb-net-cdc-ether kmod-usb-net-rndis \ 
-        kmod-usb-net kmod-usb-net-rndis kmod-usb-net-cdc-ether usbutils udev \ 
-        kmod-usb-net-cdc-ncm kmod-usb-serial kmod-usb-serial-option kmod-usb-serial-wwan kmod-usb2 block-mount udev usb-modeswitch usbutils
+        luci-proto-openconnect luci-proto-ppp luci-proto-qmi luci-proto-relay  \ kmod-usb-net kmod-usb-net-cdc-ether kmod-usb-net-rndis \ kmod-usb-net kmod-usb-net-rndis kmod-usb-net-cdc-ether usbutils udev \ kmod-usb-net-cdc-ncm kmod-usb-serial kmod-usb-serial-option kmod-usb-serial-wwan kmod-usb2 block-mount udev usb-modeswitch usbutils
         \
         luci-app-amlogic luci-i18n-amlogic-zh-cn \
         \
